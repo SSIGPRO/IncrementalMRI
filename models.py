@@ -26,7 +26,7 @@ Author: Filippo Martinini
 
 import tensorflow as tf
 import numpy as np
-from modules import layers
+import layers
 
 def data_augmentation(input_shape, factor_flip=True, factor_contrast=0.1, factor_rotation=0.1, factor_zoom=0.1):
     
